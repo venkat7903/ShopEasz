@@ -1,7 +1,5 @@
 In this project, let's build a **Nxt Trendz - Cart Features** by applying the concepts we have learned till now.
 
-project link - https://venkatsnxttrend.ccbp.tech/
-
 Prime User: Username - rahul, Password - rahul@2021
 
 Non-Prime User: Username - raja, Password - raja@2021
