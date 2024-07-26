@@ -117,6 +117,16 @@ class LoginForm extends Component {
             className="login-website-logo-desktop-img"
             alt="website logo"
           />
+          <h1 className="user-credentials">Prime User: </h1>
+          <div className="credential-container">
+            <span className="credential">Username: rahul</span>
+            <span className="credential">Password: rahul@2021</span>
+          </div>
+          <h1 className="user-credentials">Non-Prime User: </h1>
+          <div className="credential-container">
+            <span className="credential">Username: raja</span>
+            <span className="credential">Password: raja@2021</span>
+          </div>
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
           <button type="submit" className="login-button">

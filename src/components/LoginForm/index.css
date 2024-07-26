@@ -34,7 +34,7 @@
 
 @media screen and (min-width: 992px) {
   .login-img {
-    width: 60%;
+    width: 40%;
     max-width: 524px;
     flex-shrink: 1;
     margin-right: 20px;
@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 8px;
   width: 100%;
   max-width: 350px;
@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 992px) {
   .form-container {
-    width: 350px;
+    max-width: 450px;
     flex-shrink: 0;
     box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
     padding: 64px 48px 64px 48px;
@@ -135,4 +135,36 @@
   font-size: 12px;
   line-height: 16px;
   color: #ff0b37;
+}
+
+.user-credentials {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.credential-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #000;
+}
+
+.credential {
+  align-self: center;
+  margin: 0px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .credential {
+    margin: 0px 10px;
+  }
+  .credential-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 }
